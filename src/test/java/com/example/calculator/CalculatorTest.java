@@ -46,8 +46,8 @@ public class CalculatorTest {
     @Test
     public void test_양수뺄셈() {
         Calculator calc = new Calculator();
-        double result = calc.divide(5,4);
-        assertEquals("두뺼셈의 차는 1이어야함.",  1,result);
+        double result = calc.divide(10,5);
+        assertEquals("두뺼셈의 차는 5이어야함.",  1,result);
     }
     @Test
     public void test_양수곱셈() {
