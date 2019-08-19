@@ -47,13 +47,13 @@ public class CalculatorTest {
     public void test_양수뺄셈() {
         Calculator calc = new Calculator();
         double result = calc.divide(5,4);
-        assertEquals(1,result);
+        assertEquals("두뺼셈의 차는 1이어야함.",  1,result);
     }
     @Test
     public void test_양수곱셈() {
         Calculator calc = new Calculator();
-        double result = calc.divide(5,4);
-        assertEquals(20,result);
+        double result = calc.add(5,4);
+        assertEquals("두곱셈의 값은 20이어야함.", 20,result);
     }
 
 }
