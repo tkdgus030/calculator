@@ -43,6 +43,11 @@ public class CalculatorTest {
         int result = calc.divide(10,0);
         assertEquals(0,result);
     }
-
+    @Test
+    public void test_양수곱셈() {
+        Calculator calc = new Calculator();
+        double result = calc.divide(5,4);
+        assertEquals(20,result);
+    }
 
 }
