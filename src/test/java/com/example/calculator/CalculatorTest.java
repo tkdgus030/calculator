@@ -44,6 +44,12 @@ public class CalculatorTest {
         assertEquals(0,result);
     }
     @Test
+    public void test_양수뺄셈() {
+        Calculator calc = new Calculator();
+        double result = calc.divide(5,4);
+        assertEquals(1,result);
+    }
+    @Test
     public void test_양수곱셈() {
         Calculator calc = new Calculator();
         double result = calc.divide(5,4);
