@@ -1,0 +1,15 @@
+# directories
+/.idea/
+/target/
+
+# file
+*.class
+*.iml
+test.xml  ->없애고 싶은거
+.bak
+
+# Eclips
+.project
+.metaadata
+
+din/**
